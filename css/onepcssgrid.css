@@ -39,7 +39,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.contenedor, .onepcssgrid-1200 {
+.contenedor, .onepcssgrid-1200, .container-fluid{
 	margin: 0 auto;
 	padding: 0 0 0 0%; /* THAT'S THE NAME ;) */
 }
@@ -52,6 +52,9 @@
 	max-width: 1100px;
 }
 
+.container-fluid {
+	max-width: 100%;
+}
 /*
 .onerow {
 	margin-left: -14px;
