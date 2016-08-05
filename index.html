@@ -26,14 +26,14 @@
 			<div class="contenedor ballet">
 				<h3>STUDIO</h3>
 				<p>Julliart Studios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from</p>
-				<a href="#">Inscribete</a>
+				<a  class="boton" shref="#">Inscribete</a>
 			</div>
 		</section>
 		<section class="dos">
 			<div class="contenedor">
 				<p>Julliart cuenta con una amplia trayetoria y reputación, brindando una formaciòn de excelencia a cientos de amantes de la danza</p>
 				<img src="img/decoration_1.png" alt="decoration">
-				<div><a href="clases.html">Oferta de Clases</a></div>
+				<div><a class="boton" href="clases.html">Oferta de Clases</a></div>
 			</div>
 		</section>
 		<section class="tres">
@@ -78,18 +78,24 @@
 			</div>
 		</section>
 		<footer>
-			<div class="contact">
-				<div class="contenedor">
-					<div class="onerow">
-						<form action="Contactanos">
-							<h2>Contáctanos</h2>
-							<input class="inputs" id="nombre" type="text" name="nombre" placeholder="Nombre"/><br>
-							<input class="inputs" id="email" type="text" name="email" placeholder="Email"/><br>
-							<input class="inputs" id="msj" type="text" name="mensaje" placeholder="Mensaje"/><br>
-							<button class="enviar">ENVIAR</button>
-						</form>
-					</div>
-				</div>
+			<div class="contenedor contacto">
+				<div class="formulario">       
+                    <h1 class="titulo_contacto text-blue">Contáctanos</h1>
+                    <form class="mensaje  text-center">
+                        <p>
+                            <input id="nombre" class="entrada" type="text" placeholder="Nombre">
+                        </p>
+                        <p>
+                            <input id="email" class="entrada" type="text" placeholder="Email">
+                        </p>
+                        <p>
+                            <textarea rows="8" cols="50" placeholder="Mensaje"></textarea>
+                        </p>
+                        <p>
+                            <button class="boton">ENVIAR</button>
+                        </p>
+                    </form>
+                </div>
 			</div>
 			<div class="pie">
 				<p>© Escuela de danza. Todos los derechos reservados.</p>
