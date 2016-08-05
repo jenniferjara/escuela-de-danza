@@ -1,0 +1,49 @@
+/*SECTION*/
+section{
+	background-color: #E6E6E6;
+	padding-bottom: 30px;
+}
+section h3{
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+}
+.titulos{
+	margin-bottom: 50px;
+}
+.img, .parrafo{
+	height: 250px;
+}
+.img{
+	background-size: cover;
+}
+.dancers1{
+	background-image: url(../img/blog1.jpg);
+}
+.dancers2{
+	background-image: url(../img/profesor_5.jpg);
+}
+.dancers3{
+	background-image: url(../img/instructor_1.jpg);
+}
+.parrafo{
+	background-color: #BDBDBD;
+	padding: 50px 40px;
+}
+.titulos a{
+	text-decoration: none;
+	border-radius: 5px;
+	color: #C3C6C5;
+	background-color: #192951;
+	padding: 10px 80px;
+	margin-top: 30px;
+}
+.titulos h4{
+	color: #170B3B;
+}
+.fecha{
+	color: #A4A4A4;
+	font-style: italic;
+}	
+.descrip{
+	color: #585858;
+}
